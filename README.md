@@ -2,7 +2,7 @@
 **Development Status: 🚧 Under Development**  
 
   
-GazeLab is a research toolkit for getting real-time eye-tracking data from Pupil Neon and updating stimulus location based on gaze coordinates. It provides tools to set up a simple experiment using Psychopy, conversion between visual degree and pixel, designed to streamline experiments involving real-time gaze-contingent stimulus presentation.  
+GazeLabPy is a research toolkit for getting real-time eye-tracking data from Pupil Neon and updating stimulus location based on gaze coordinates. It provides tools to set up a simple experiment using Psychopy, conversion between visual degree and pixel, designed to streamline experiments involving real-time gaze-contingent stimulus presentation.  
 
 ---
 ### Getting Started
@@ -19,6 +19,11 @@ Note: It is recommended to install the requirements into a [virtual environment]
   cd pupil
   git checkout develop
   python -m pip install -r requirements.txt
+  ```
+- [Pupil Labs Real-Time API](https://github.com/pupil-labs/realtime-python-api) and [Real-time Screen Gaze](https://github.com/pupil-labs/real-time-screen-gaze) Python packages
+  ```
+  pip install pupil-labs-realtime-api
+  pip install real-time-screen-gaze
   ```
   
  
